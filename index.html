@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Year Surprise for My Love ❤️</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="animate__animated animate__heartBeat">Happy New Year, My Love! ❤️</h1>
+    </header>
+
+    <main>
+        <!-- Love Letter -->
+        <section id="love-letter" class="section">
+            <h2>💌 A Love Letter Just for You</h2>
+            <div id="letter-content" class="animate__animated animate__fadeIn">
+                <p>meri pyaari Malkin ❤️,</p>
+                <p>As the New Year begins, I want you to know how much you mean to me. You are the light in my life, the reason I smile every day, and the person who makes my heart beat faster. Every moment with you feels like a dream, and I’m so grateful to have you by my side.</p>
+                <p>This year, I promise to love you more deeply, support you endlessly, and cherish every second we spend together. You are my everything, and I can’t wait to create more beautiful memories with you.</p>
+                <p>Forever yours,</p>
+                <p>Apka pyara ullu</p>
+            </div>
+        </section>
+
+       <!-- Memory Slideshow Section -->
+<section id="memory-slideshow" class="section">
+    <h2>📸 In name of your beatuiful Eyes👀 Let's start our year</h2>
+    <div class="slideshow-container">
+        <div class="slides fade animate__animated animate__fadeIn">
+            <img src="photo5.jpg" alt="Memory 1">
+        </div>
+        <div class="slides fade animate__animated animate__fadeIn">
+            <img src="photo2.jpg" alt="Memory 2">
+        </div>
+        <div class="slides fade animate__animated animate__fadeIn">
+            <img src="photo3.jpg" alt="Memory 3">
+        </div>
+        <div class="slides fade animate__animated animate__fadeIn">
+            <img src="photo4.jpg" alt="Memory 4">
+        </div>
+        <div class="slides fade animate__animated animate__fadeIn">
+            <img src="photo1.jpg" alt="Memory 5">
+        </div>
+    </div>
+    <div class="slideshow-controls">
+        <button onclick="prevSlide()">Previous</button>
+        <button onclick="nextSlide()">Next</button>
+    </div>
+</section>
+        <!-- Romantic Quiz -->
+        <section id="romantic-quiz" class="section">
+            <h2>💖 Quiz Game for You </h2>
+            <p>Just play</p>
+            <div id="quiz-container">
+                <div class="question animate__animated animate__fadeIn">
+                    <p>1. what's my favorite thing about you?</p>
+                    <label><input type="radio" name="q1" value="A"> Your smile</label>
+                    <label><input type="radio" name="q1" value="B"> Your Voice</label>
+                    <label><input type="radio" name="q1" value="C"> Your Eyes </label>
+                    <label><input type="radio" name="q1" value="D"> All of above</label>
+                </div>
+                <div class="question animate__animated animate__fadeIn">
+                    <p>2.where we first landed in our first match</p>
+                    <label><input type="radio" name="q2" value="A"> pochinki</label>
+                    <label><input type="radio" name="q2" value="B"> apartment</label>
+                    <label><input type="radio" name="q2" value="C"> school</label>
+                    <label><input type="radio" name="q2" value="D"> main building</label>
+                </div>
+                <div class="question animate__animated animate__fadeIn">
+                    <p>3. What’s favorite my thing about you</p>
+                    <label><input type="radio" name="q3" value="A"> your humor</label>
+                    <label><input type="radio" name="q3" value="B"> your kindness</label>
+                    <label><input type="radio" name="q3" value="C"> your beauty</label>
+                    <label><input type="radio" name="q3" value="D"> how you care about me</label>
+                </div>
+                <div class="question animate__animated animate__fadeIn">
+                    <p>4. What’s my favorite food?</p>
+                    <label><input type="radio" name="q4" value="A"> Pizza</label>
+                    <label><input type="radio" name="q4" value="B"> Sushi</label>
+                    <label><input type="radio" name="q4" value="C"> Pasta</label>
+                    <label><input type="radio" name="q4" value="D"> momos</label>
+                </div>
+                <button onclick="submitQuiz()">Submit Quiz</button>
+                <div id="quiz-result" class="result"></div>
+            </div>
+        </section>
+
+        <!-- Quiz for Her -->
+        <section id="quiz-for-her" class="section">
+            <h2>💞 Quiz for You</h2>
+            <p>Now it's your turn to share your thoughts!</p>
+            <div id="her-quiz-container">
+                <div class="question animate__animated animate__fadeIn">
+                    <p>1. What’s your favorite memory of us?</p>
+                    <input type="text" id="her-memory" placeholder="Your answer here...">
+                </div>
+                <div class="question animate__animated animate__fadeIn">
+                    <p>2. What’s your favorite thing about our relationship?</p>
+                    <input type="text" id="her-favorite-thing" placeholder="Your answer here...">
+                </div>
+                <div class="question animate__animated animate__fadeIn">
+                    <p>3. Where would you like to travel together?</p>
+                    <input type="text" id="her-travel-destination" placeholder="Your answer here...">
+                </div>
+                <button onclick="submitHerQuiz()">Submit Your Thoughts</button>
+                <div id="her-quiz-result" class="result"></div>
+            </div>
+        </section>
+
+        <!-- Dedicated Song -->
+        <section id="dedicated-song" class="section">
+            <h2>🎶 A Song Just for You</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/J2KyQ9MAHfc?si=bKkpwh9qGIsVQ_in" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 A Special Surprise for My Love I love you Malkin</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
